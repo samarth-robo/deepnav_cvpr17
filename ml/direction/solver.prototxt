@@ -1,0 +1,21 @@
+net: "train_val_${DEEPNAV_CITY}.prototxt"
+solver_mode: GPU
+
+lr_policy: "multistep"
+# batch size = 10, 477684 images
+base_lr: 1e-3
+gamma: 0.1
+stepvalue: 144000  # 3 epochs
+stepvalue: 192000  # 4 epochs
+stepvalue: 288000  # 6 epochs
+max_iter:  384000  # 8 epochs
+momentum: 0.9
+weight_decay: 0.0005
+
+# 99612 images, batch size = 25
+# test_iter: 3984
+# test_interval: 48000  # 1 epoch
+
+snapshot: 48000
+snapshot_prefix: "../../output/streetview/${DEEPNAV_CITY}_vgg_direction"
+display: 100
