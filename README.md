@@ -1,6 +1,7 @@
 # DeepNav: Learning to Navigate Large Cities
 - Most of the code exists to collect data and label it
 - Actual training code is minimal (you will find prototxt files for all 3 DeepNav networks in the 'ml' directory)
+- For implementing the geographically weighted loss functions, use the `SoftmaxWeightedLoss` and `EuclideanWeightedLoss` layers from my [fork](https://github.com/samarth-robo/caffe) of caffe.
 - Unfortunately I haven't had the time to extensively document everything, but here's what the important executables do:
   - `test_graph_maker` makes a city graph given the dataset
   - `test_search` demonstrates A* search
