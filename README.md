@@ -16,7 +16,9 @@
   - The `python/combine_datasets.py` script can be used to combine the labels of multiple cities for large experiments
 
 # Trained models
-Coming soon
+- [DeepNav-direction](https://drive.google.com/open?id=0B5_6NRwNEqMPMVNUTkZqd3NNRWM)
+- [DeepNav-distance](https://drive.google.com/open?id=0B5_6NRwNEqMPUFktZjBiTHE1T0k)
+- [DeepNav-pair](https://drive.google.com/open?id=0B5_6NRwNEqMPZzg3MVcybHJTWVk)
 
 # Citation
 @InProceedings{Brahmbhatt_2017_CVPR,<br/>
