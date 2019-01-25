@@ -22,6 +22,7 @@
 - [DeepNav-pair](https://drive.google.com/open?id=0B5_6NRwNEqMPZzg3MVcybHJTWVk)
 
 # Citation
+```
 @InProceedings{Brahmbhatt_2017_CVPR,<br/>
 author = {Brahmbhatt, Samarth and Hays, James},<br/>
 title = {DeepNav: Learning to Navigate Large Cities},<br/>
@@ -29,3 +30,4 @@ booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVP
 month = {July},<br/>
 year = {2017}<br/>
 }
+```
