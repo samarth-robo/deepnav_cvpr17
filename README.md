@@ -23,11 +23,11 @@
 
 # Citation
 ```
-@InProceedings{Brahmbhatt_2017_CVPR,<br/>
-author = {Brahmbhatt, Samarth and Hays, James},<br/>
-title = {DeepNav: Learning to Navigate Large Cities},<br/>
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},<br/>
-month = {July},<br/>
-year = {2017}<br/>
+@InProceedings{Brahmbhatt_2017_CVPR,
+author = {Brahmbhatt, Samarth and Hays, James},
+title = {DeepNav: Learning to Navigate Large Cities},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {July},
+year = {2017}
 }
 ```
